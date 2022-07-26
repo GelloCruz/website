@@ -61,7 +61,7 @@ a:active,a:hover {
     font-size: 30px;
     color: whitesmoke;
     line-height: 80px;
-    margin-right: 40px;
+    margin-right: 10px;
     cursor: pointer;
     display: none;
 }
@@ -78,7 +78,7 @@ a:active,a:hover {
     width: 100%;
     background-image: 
     linear-gradient(to right, rgba(73, 31, 11, .2), rgba(207, 78, 49, 0.2)),
-   url('images/bg.jpg');
+   url('bg.jpg');
    background-repeat: no-repeat;
    background-size: cover;
     padding: 0;
@@ -258,7 +258,7 @@ li:hover,li:active{
     width: 100%;
     background-image: 
     linear-gradient(to right, rgba(73, 31, 11, .2), rgba(207, 78, 49, 0.2)),
-   url('images/bg.jpg');
+   url('bg.jpg');
    background-repeat: no-repeat;
    background-size: cover;
     padding: 0;
@@ -346,7 +346,7 @@ li:hover,li:active{
     width: 100%;
     background-image: 
     linear-gradient(to right, rgba(73, 31, 11, .2), rgba(207, 78, 49, 0.2)),
-   url('images/bg3.jpg');
+   url('bg3.jpg');
    background-repeat: no-repeat;
    background-size: cover;
     padding: 0;
@@ -435,7 +435,7 @@ li:hover,li:active{
 /* EVENT CARDS */
 .index-post {
     width: 1124px; transition: all 1.5s;
-    height: 75vh; 
+    height: auto; 
     overflow: hidden; 
     margin: auto;
     display: block;
@@ -542,24 +542,24 @@ li:hover,li:active{
 
 @media screen and (max-width:1124px){
     .index-post{
-        width: 562px; height: 728px;
+        width: 562px; height: auto;
     }
 }
 @media screen and (max-width:562px){
     .index-post{
-        width: 281px; height: 1700px;
+        width: 281px; height: auto;
     }
 }
 
 @media (max-width: 1329px) {
     .index-post{
-        height: 120vh;
+        height: auto;
     }
 }
 
 @media (max-width: 767px) {
     .index-post{
-        height: 230vh;
+        height: auto;
     }
 }
 /* ABOUT US */
@@ -1236,12 +1236,13 @@ width:50%;
 }
 .section-container .columns.content .content-container h5
 {
+    
     margin-bottom:5px;
 }
 .section-container .columns.content .content-container p
         {
         font-weight:400;
-        width: 600px;
+        width: auto;
         font-size:16px;
         margin-bottom:20px;
         margin-bottom:15px;
@@ -1253,7 +1254,7 @@ width:50%;
         .section-container .columns.content .content-container p
         {
         font-weight:400;
-        width: 600px;
+        width: auto;
         font-size:12px;
         margin-bottom:20px;
         margin-bottom:15px;
@@ -1277,7 +1278,7 @@ width:50%;
         .section-container .columns.content .content-container p
         {
         font-weight:400;
-        width: 400px;
+        width: auto;
         font-size:16px;
         margin-bottom:20px;
         margin-bottom:15px;
